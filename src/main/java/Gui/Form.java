@@ -64,7 +64,7 @@ public class Form extends JFrame {
                 }).start();
             }
         });
-        // тинициализация таймера, срабатывающего раз в 100 мсек
+        // инициализация таймера, срабатывающего раз в 100 мсек
         timer = new Timer(100, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
