@@ -1,10 +1,9 @@
 package fixed;
-
-
+// поля
 public class Point {
     public int x;
     public int y;
-
+    // метод задающий точку
     public Point(int x, int y) {
         this.x = x;
         this.y = y;
